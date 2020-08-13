@@ -174,7 +174,7 @@ try{
 
 		if (ejeX) {
 			
-			if (cod == 38) {
+			if (cod == 38 || cod == 87) {
 
 				dirY = -tam
 				dirX = 0
@@ -182,7 +182,7 @@ try{
 				ejeY = true
 
 			}
-			if (cod == 40) {
+			if (cod == 40 || cod == 83) {
 
 				dirY = tam
 				dirX = 0
@@ -194,7 +194,7 @@ try{
 
 		if (ejeY) {
 			
-			if (cod == 37) {
+			if (cod == 37 || cod == 65) {
 
 				dirY = 0
 				dirX = -tam
@@ -202,7 +202,7 @@ try{
 				ejeY = false
 
 			}
-			if (cod == 39) {
+			if (cod == 39 || cod == 68) {
 
 				dirY = 0
 				dirX = tam
