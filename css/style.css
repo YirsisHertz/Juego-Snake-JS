@@ -1,0 +1,23 @@
+body{
+	background: #111;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.puntaje{
+	text-align: center;
+	margin-top: 2em;
+	display: block;
+	font-weight: bolder;
+	font-size: 1.3em;
+	color: snow;
+}
+
+.canvas{
+	position: absolute;
+	display: inline-block;
+	background: #fff;
+	border: solid 3px #ddd;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
